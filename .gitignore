@@ -1,0 +1,12 @@
+# Videoları engelle
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Raporları engelle
+*rapor*
+*.pdf
+*.docx
+*.webp
+*.jpg

@@ -1,0 +1,21 @@
+# VisDrone Dataset Configuration
+path: ../../../Datasets/data/VisDrone_Dataset
+train: ../../../Datasets/data/VisDrone_Dataset/VisDrone2019-DET-train/images
+val: ../../../Datasets/data/VisDrone_Dataset/VisDrone2019-DET-val/images
+test: ../../../Datasets/data/VisDrone_Dataset/VisDrone2019-DET-test-dev/images
+
+#number of classes
+nc: 10
+
+# Class names
+names:
+  0: pedestrian
+  1: people
+  2: bicycle
+  3: car
+  4: van
+  5: truck
+  6: tricycle
+  7: awning-tricycle
+  8: bus
+  9: motor
